@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da87328ce632e3e42b5d8f945829fbdb, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.TilePalette
+  entries:
+  - prefab: {fileID: 2373314616585254255, guid: 17a95d37712e1c8419d6848233aa44d9, type: 3}
+    enabled: 1
+    weight: 0.25
+  - prefab: {fileID: 5930706814196014208, guid: eff7ca6cd5fea92419b726dd037cc1aa, type: 3}
+    enabled: 1
+    weight: 0.25
+  - prefab: {fileID: 8309434008823465317, guid: 1b296da5c845776409fd85cfa44c7dfd, type: 3}
+    enabled: 1
+    weight: 0.25
+  - prefab: {fileID: 5935962185347524089, guid: c8be3701558a317409556f98152fdb30, type: 3}
+    enabled: 1
+    weight: 0.25
+  containerName: '[Tiles]'
+  staticFlags: 22
+  randomizeSkin: 0
+  cellSize: 32
+  gridOffset: {x: 0, y: 0}
+  height: 0
+  randomRotation: 0

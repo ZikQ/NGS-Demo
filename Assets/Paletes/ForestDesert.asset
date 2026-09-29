@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da87328ce632e3e42b5d8f945829fbdb, type: 3}
+  m_Name: ForestDesert
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.TilePalette
+  entries:
+  - prefab: {fileID: 8632972791108488316, guid: 2c3e29bdb0c8b9b4795f748abd53d048, type: 3}
+    enabled: 0
+    weight: 0
+  - prefab: {fileID: 5797194536715521986, guid: e9bececc900819241b1a6b00c2e1c0c4, type: 3}
+    enabled: 0
+    weight: 0
+  - prefab: {fileID: 6594782505806922432, guid: 7137ff75a6d676d47a57fe887a26a927, type: 3}
+    enabled: 1
+    weight: 1
+  - prefab: {fileID: 5515672347150261800, guid: 91771027e44563540a38e112ea00dbfc, type: 3}
+    enabled: 0
+    weight: 0
+  containerName: '[Tiles]'
+  staticFlags: 22
+  randomizeSkin: 0
+  cellSize: 32
+  gridOffset: {x: 0, y: 0}
+  height: 0
+  randomRotation: 0

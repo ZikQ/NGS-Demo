@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da87328ce632e3e42b5d8f945829fbdb, type: 3}
+  m_Name: Desert
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.TilePalette
+  entries:
+  - prefab: {fileID: 2249056910357845258, guid: 1901ed601f26bdc4b8ad5906a32d53c3, type: 3}
+    enabled: 1
+    weight: 1
+  - prefab: {fileID: 3074266946724610671, guid: d1229cd3072a39147a77ea1e576ff0d5, type: 3}
+    enabled: 1
+    weight: 0
+  - prefab: {fileID: 8378496172257051873, guid: 29939deb075e9c8409abcf4e512611f7, type: 3}
+    enabled: 1
+    weight: 0
+  - prefab: {fileID: 5205177818388842715, guid: ac445b8132c9e4b43a523c0b361f2147, type: 3}
+    enabled: 1
+    weight: 0
+  containerName: '[Tiles]'
+  staticFlags: 22
+  randomizeSkin: 0
+  cellSize: 32
+  gridOffset: {x: 0, y: 0}
+  height: 0
+  randomRotation: 0

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47bf06152ae476a8e4c04e732204a3d, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.VoxelPrefabs.VoxelAtlasLibrary
+  maxPageSize: 2048
+  padding: 2
+  pages:
+  - {fileID: 2800000, guid: 1094978a0f6c2cc46b9c03c654293826, type: 3}
+  bindings:
+  - prefab: {fileID: 350658658749410830, guid: f4eb7685b616a4f4ea411ecf45fe4089, type: 3}
+    rendererPath: 
+    mesh: {fileID: -5465835362348602452, guid: f4eb7685b616a4f4ea411ecf45fe4089, type: 3}
+  - prefab: {fileID: 5293472714479391783, guid: 02ecb1e1512638e40bc845942e095d05, type: 3}
+    rendererPath: 
+    mesh: {fileID: 7084192310000422037, guid: 02ecb1e1512638e40bc845942e095d05, type: 3}
+  - prefab: {fileID: 8079531463593889428, guid: ea1f229273004434c868bb1e79363447, type: 3}
+    rendererPath: 
+    mesh: {fileID: 5794398835118122331, guid: ea1f229273004434c868bb1e79363447, type: 3}
+  - prefab: {fileID: 8549183177277821318, guid: 07f881ec14a0c884cb488eaf5be3a43f, type: 3}
+    rendererPath: 
+    mesh: {fileID: -1299704884609535208, guid: 07f881ec14a0c884cb488eaf5be3a43f, type: 3}
+  - prefab: {fileID: 6616209341219106312, guid: 2a09a7bb694498c47828c882a1f68282, type: 3}
+    rendererPath: 
+    mesh: {fileID: 7163816346531933957, guid: 2a09a7bb694498c47828c882a1f68282, type: 3}
+  - prefab: {fileID: 2349295983984714638, guid: 6229a68ca5e825d45aa6c1d665bac02e, type: 3}
+    rendererPath: 
+    mesh: {fileID: -1565731130796541894, guid: 6229a68ca5e825d45aa6c1d665bac02e, type: 3}
+  - prefab: {fileID: 216358086997375324, guid: 2eaebdf2a235b6141aedec6703a4e2b7, type: 3}
+    rendererPath: 
+    mesh: {fileID: -2732511517313745984, guid: 2eaebdf2a235b6141aedec6703a4e2b7, type: 3}
+  - prefab: {fileID: 48693832150716800, guid: 67895d8926723b34da048911cd3263c3, type: 3}
+    rendererPath: 
+    mesh: {fileID: 3108946375112491376, guid: 67895d8926723b34da048911cd3263c3, type: 3}
+  - prefab: {fileID: 5114557304035588263, guid: 8dde21922f1dd164ea38c09c7b77867e, type: 3}
+    rendererPath: 
+    mesh: {fileID: 6499352252066044250, guid: 8dde21922f1dd164ea38c09c7b77867e, type: 3}
+  - prefab: {fileID: 6692041938613566143, guid: d9a5c6c2315b8944d910d6270676a6c5, type: 3}
+    rendererPath: 
+    mesh: {fileID: -2874338137115186391, guid: d9a5c6c2315b8944d910d6270676a6c5, type: 3}
+  materials:
+  - signature: Universal Render Pipeline/Lit|2000|4|False|_WorkflowMode=1.0000|_BaseMap=atlas|_BaseColor=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_Cutoff=0.5000|_Smoothness=0.0000|_SmoothnessTextureChannel=0.0000|_Metallic=0.0000|_MetallicGlossMap=|_SpecColor=RGBA(0.2000,
+      0.2000, 0.2000, 1.0000)|_SpecGlossMap=|_SpecularHighlights=1.0000|_EnvironmentReflections=1.0000|_BumpScale=1.0000|_BumpMap=|_Parallax=0.0050|_ParallaxMap=|_OcclusionStrength=1.0000|_OcclusionMap=|_EmissionColor=RGBA(0.0000,
+      0.0000, 0.0000, 1.0000)|_EmissionMap=|_DetailMask=|_DetailAlbedoMapScale=1.0000|_DetailAlbedoMap=|_DetailNormalMapScale=1.0000|_DetailNormalMap=|_ClearCoatMask=0.0000|_ClearCoatSmoothness=0.0000|_Surface=0.0000|_Blend=0.0000|_Cull=2.0000|_AlphaClip=0.0000|_SrcBlend=1.0000|_DstBlend=0.0000|_SrcBlendAlpha=1.0000|_DstBlendAlpha=0.0000|_ZWrite=1.0000|_BlendModePreserveSpecular=1.0000|_AlphaToMask=0.0000|_AddPrecomputedVelocity=0.0000|_XRMotionVectorsPass=1.0000|_ReceiveShadows=1.0000|_QueueOffset=0.0000|_MainTex=atlas|_Color=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_GlossMapScale=0.0000|_Glossiness=0.0000|_GlossyReflections=0.0000|unity_Lightmaps=|unity_LightmapsInd=|unity_ShadowMasks=
+    page: 0
+    material: {fileID: 2100000, guid: d82cd7dc008b8134597172c1896982a9, type: 2}
+  - signature: NGS/Voxel Zone Remap Lit|2000|4|False|_VERTEX_COLOR_AO|_BaseMap=atlas|_BaseColor=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_Smoothness=0.0000|_Metallic=0.0000|_Threshold=0.0200|_Marker0=RGBA(1.0000,
+      0.0000, 0.0157, 1.0000)|_Marker1=RGBA(0.0000, 0.0000, 1.0000, 1.0000)|_Marker2=RGBA(0.0000,
+      1.0000, 1.0000, 1.0000)|_Marker3=RGBA(1.0000, 1.0000, 0.0000, 1.0000)|_ZonesPacked=(16711940.0000,
+      16711940.0000, 16711940.0000, 16711940.0000)|_VertexColorAO=1.0000
+    page: 0
+    material: {fileID: 2100000, guid: 167e13d921d0dc846a5b403bc4dfb368, type: 2}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47bf06152ae476a8e4c04e732204a3d, type: 3}
+  m_Name: Projectiles
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.VoxelPrefabs.VoxelAtlasLibrary
+  maxPageSize: 2048
+  padding: 2
+  pages:
+  - {fileID: 2800000, guid: 4e0858f0821268e418445e563da936a7, type: 3}
+  bindings:
+  - prefab: {fileID: 2819042678971543945, guid: efbb8c98cd62628499542c0835a8f713, type: 3}
+    rendererPath: model
+    mesh: {fileID: 1930165681626096027, guid: efbb8c98cd62628499542c0835a8f713, type: 3}
+  - prefab: {fileID: 874697262847061403, guid: 1e524c605d3cb3049b4e46ee630ffcc7, type: 3}
+    rendererPath: model
+    mesh: {fileID: -6734047087387246275, guid: 1e524c605d3cb3049b4e46ee630ffcc7, type: 3}
+  - prefab: {fileID: 938932446382759409, guid: 1fca91159f6e953489b36e39a3046bf3, type: 3}
+    rendererPath: model
+    mesh: {fileID: 953589006692601805, guid: 1fca91159f6e953489b36e39a3046bf3, type: 3}
+  - prefab: {fileID: 5330355594939665848, guid: 5bda08044f989ed4f8981d083c52e223, type: 3}
+    rendererPath: model
+    mesh: {fileID: -5062643802903012952, guid: 5bda08044f989ed4f8981d083c52e223, type: 3}
+  - prefab: {fileID: 1049717595812430521, guid: bc658b2a6cadd7b46aca431de87e144c, type: 3}
+    rendererPath: model
+    mesh: {fileID: 9194283842734359269, guid: bc658b2a6cadd7b46aca431de87e144c, type: 3}
+  - prefab: {fileID: 8787071735068000633, guid: af76e67d4a5a01a4bb6a772b008163af, type: 3}
+    rendererPath: model
+    mesh: {fileID: -6648720076969005279, guid: af76e67d4a5a01a4bb6a772b008163af, type: 3}
+  - prefab: {fileID: 1436057607358123103, guid: c67f3c3fd4c5f5c4ca52512cf3a7b58b, type: 3}
+    rendererPath: model
+    mesh: {fileID: -6092559010088214114, guid: c67f3c3fd4c5f5c4ca52512cf3a7b58b, type: 3}
+  - prefab: {fileID: 6890965152859377172, guid: 64d00f6f0c1ad264992c8edb098cc200, type: 3}
+    rendererPath: model
+    mesh: {fileID: 3785159015801134382, guid: 64d00f6f0c1ad264992c8edb098cc200, type: 3}
+  - prefab: {fileID: 2616375356870846893, guid: e0fbfd4c826f13541be27190c157fe94, type: 3}
+    rendererPath: model
+    mesh: {fileID: -1003285311826999623, guid: e0fbfd4c826f13541be27190c157fe94, type: 3}
+  materials:
+  - signature: Universal Render Pipeline/Lit|2000|4|False|_WorkflowMode=1.0000|_BaseMap=atlas|_BaseColor=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_Cutoff=0.5000|_Smoothness=0.0000|_SmoothnessTextureChannel=0.0000|_Metallic=0.0000|_MetallicGlossMap=|_SpecColor=RGBA(0.2000,
+      0.2000, 0.2000, 1.0000)|_SpecGlossMap=|_SpecularHighlights=1.0000|_EnvironmentReflections=1.0000|_BumpScale=1.0000|_BumpMap=|_Parallax=0.0050|_ParallaxMap=|_OcclusionStrength=1.0000|_OcclusionMap=|_EmissionColor=RGBA(0.0000,
+      0.0000, 0.0000, 1.0000)|_EmissionMap=|_DetailMask=|_DetailAlbedoMapScale=1.0000|_DetailAlbedoMap=|_DetailNormalMapScale=1.0000|_DetailNormalMap=|_ClearCoatMask=0.0000|_ClearCoatSmoothness=0.0000|_Surface=0.0000|_Blend=0.0000|_Cull=2.0000|_AlphaClip=0.0000|_SrcBlend=1.0000|_DstBlend=0.0000|_SrcBlendAlpha=1.0000|_DstBlendAlpha=0.0000|_ZWrite=1.0000|_BlendModePreserveSpecular=1.0000|_AlphaToMask=0.0000|_AddPrecomputedVelocity=0.0000|_XRMotionVectorsPass=1.0000|_ReceiveShadows=1.0000|_QueueOffset=0.0000|_MainTex=atlas|_Color=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_GlossMapScale=0.0000|_Glossiness=0.0000|_GlossyReflections=0.0000|unity_Lightmaps=|unity_LightmapsInd=|unity_ShadowMasks=
+    page: 0
+    material: {fileID: 2100000, guid: 3af91e766eda9fd41b23685448706d94, type: 2}
+  - signature: Universal Render Pipeline/Lit|3000|4|False|_ALPHAPREMULTIPLY_ON|_SURFACE_TYPE_TRANSPARENT|_WorkflowMode=1.0000|_BaseMap=atlas|_BaseColor=RGBA(1.0000,
+      1.0000, 1.0000, 0.0000)|_Cutoff=0.5000|_Smoothness=0.0000|_SmoothnessTextureChannel=0.0000|_Metallic=0.0000|_MetallicGlossMap=|_SpecColor=RGBA(0.2000,
+      0.2000, 0.2000, 1.0000)|_SpecGlossMap=|_SpecularHighlights=1.0000|_EnvironmentReflections=1.0000|_BumpScale=1.0000|_BumpMap=|_Parallax=0.0050|_ParallaxMap=|_OcclusionStrength=1.0000|_OcclusionMap=|_EmissionColor=RGBA(0.0000,
+      0.0000, 0.0000, 1.0000)|_EmissionMap=|_DetailMask=|_DetailAlbedoMapScale=1.0000|_DetailAlbedoMap=|_DetailNormalMapScale=1.0000|_DetailNormalMap=|_ClearCoatMask=0.0000|_ClearCoatSmoothness=0.0000|_Surface=1.0000|_Blend=0.0000|_Cull=2.0000|_AlphaClip=0.0000|_SrcBlend=1.0000|_DstBlend=10.0000|_SrcBlendAlpha=1.0000|_DstBlendAlpha=10.0000|_ZWrite=0.0000|_BlendModePreserveSpecular=1.0000|_AlphaToMask=0.0000|_AddPrecomputedVelocity=0.0000|_XRMotionVectorsPass=1.0000|_ReceiveShadows=1.0000|_QueueOffset=0.0000|_MainTex=atlas|_Color=RGBA(1.0000,
+      1.0000, 1.0000, 0.0000)|_GlossMapScale=0.0000|_Glossiness=0.0000|_GlossyReflections=0.0000|unity_Lightmaps=|unity_LightmapsInd=|unity_ShadowMasks=
+    page: 0
+    material: {fileID: 2100000, guid: a699780f2d8f7b449987a4444f892bd3, type: 2}

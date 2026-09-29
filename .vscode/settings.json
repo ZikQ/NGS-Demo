@@ -1,0 +1,38 @@
+{
+  "files.exclude": {
+    "**/*.meta": true,
+    "**/*.csproj": true,
+    "**/*.sln": true,
+    "**/*.slnx": true,
+    "**/*.unityproj": true,
+    "**/.vs": true,
+    "**/.vsconfig": true,
+    "**/obj": true,
+    "Library": true,
+    "Logs": true,
+    "Temp": true,
+    "UserSettings": true,
+    "Build": true,
+    "Builds": true,
+    "MemoryCaptures": true,
+    "Recordings": true
+  },
+  "files.watcherExclude": {
+    "**/Library/**": true,
+    "**/Temp/**": true,
+    "**/Logs/**": true,
+    "**/obj/**": true,
+    "**/UserSettings/**": true
+  },
+  "search.useIgnoreFiles": false,
+  "files.associations": {
+    "*.asmdef": "json",
+    "*.asmref": "json",
+    "*.shader": "hlsl",
+    "*.cginc": "hlsl",
+    "*.hlsl": "hlsl",
+    "*.compute": "hlsl",
+    "*.uss": "css",
+    "*.uxml": "xml"
+  }
+}

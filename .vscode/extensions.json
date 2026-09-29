@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "visualstudiotoolsforunity.vstuc",
+    "ms-dotnettools.csdevkit",
+    "ms-dotnettools.csharp"
+  ],
+  "unwantedRecommendations": [
+    "unity.unity-debug"
+  ]
+}

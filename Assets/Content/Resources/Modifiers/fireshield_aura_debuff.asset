@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23285cdbc906d0049b3dc70fa1cc45bc, type: 3}
+  m_Name: fireshield_aura_debuff
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Game.MOBA.Modifiers.TickDamage_Debuff
+  id: fireshield_aura_debuff
+  displayNameKey: spells.fireshield_name
+  displayDescriptionKey: spells.fireshield_description
+  icon: {fileID: 1649356991, guid: aff46c314edff0f448ef1b8c75978036, type: 3}
+  isDebuff: 1
+  isHidden: 0
+  isPurgable: 1
+  removeOnDeath: 1
+  ignoresImmunity: 0
+  maxStacks: 1
+  statModifiers: []
+  effect: {fileID: 11400000, guid: 2f5dfce6216dfdd42b9cca9120db85fc, type: 2}

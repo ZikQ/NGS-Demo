@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f972e3f30164c3648b5eb936c9d815fc, type: 3}
+  m_Name: ray
+  m_EditorClassIdentifier: NGS.Unity.Core::NGS.Unity.Core.EffectSystem.EffectDefinition
+  groupId: projectiles
+  id: ray
+  prefab: {fileID: 5712759762521806108, guid: 836ed88b575373147bd48d204a9ae14e, type: 3}
+  defaultCapacity: 5
+  maxSize: 0
+  loopByDefault: 1
+  lingerOnRelease: 1

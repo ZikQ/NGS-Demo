@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efdd886699b40c488393e3eb369b7f5, type: 3}
+  m_Name: fireshield_aura
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Game.MOBA.Modifiers.BurnAuraModifier
+  id: fireshield_aura_modifier
+  displayNameKey: spells.fireshield_name
+  displayDescriptionKey: spells.fireshield_description
+  icon: {fileID: 1649356991, guid: aff46c314edff0f448ef1b8c75978036, type: 3}
+  isDebuff: 0
+  isHidden: 0
+  isPurgable: 0
+  removeOnDeath: 1
+  ignoresImmunity: 0
+  maxStacks: 1
+  statModifiers: []
+  modifiers:
+  - modifier: {fileID: 11400000, guid: ff843d3fc980e9244a803ba11b9c11d3, type: 2}
+    duration: 0
+    interval: 0.1
+    stackBehavior: 1
+  baseRadius: 100
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 128
+  effect: {fileID: 11400000, guid: 38acb00f88649ca42929f893d12b3dac, type: 2}

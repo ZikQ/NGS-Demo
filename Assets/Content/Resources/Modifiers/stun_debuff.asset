@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5f73aa934848048a5a0d5b8abe1ee7, type: 3}
+  m_Name: stun_debuff
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Game.MOBA.Modifiers.ConditionModifier
+  id: stun_debuff
+  displayNameKey: spells.fireball_name
+  displayDescriptionKey: spells_fireball_description
+  icon: {fileID: -1194307972, guid: f23f77146f6b7bc4a945d824510cb132, type: 3}
+  isDebuff: 1
+  isHidden: 0
+  isPurgable: 1
+  removeOnDeath: 1
+  ignoresImmunity: 0
+  maxStacks: 1
+  statModifiers: []
+  condition: {fileID: 11400000, guid: bfe8338adae094c4f9692f8c73a7532c, type: 2}

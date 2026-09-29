@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da87328ce632e3e42b5d8f945829fbdb, type: 3}
+  m_Name: DirtDesert
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.TilePalette
+  entries:
+  - prefab: {fileID: 6003475257729807889, guid: 07ba6e54dd70cfe42a21c90e7e916a29, type: 3}
+    enabled: 0
+    weight: 0
+  - prefab: {fileID: 6165934124182105579, guid: a391f7a3a19b8c04fac5f86cecece1e2, type: 3}
+    enabled: 0
+    weight: 0
+  - prefab: {fileID: 4236373785607339161, guid: a54a8e4f1ff0d0e4580f9edbee4fbd62, type: 3}
+    enabled: 1
+    weight: 1
+  containerName: '[Tiles]'
+  staticFlags: 22
+  randomizeSkin: 0
+  cellSize: 32
+  gridOffset: {x: 0, y: 0}
+  height: 0
+  randomRotation: 0

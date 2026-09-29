@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd66bef5cb90674b8362ad8713e25e5, type: 3}
+  m_Name: fireball
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Game.MOBA.Spells.ProjectileSpell
+  id: fireball_spell
+  displayNameKey: spells.fireball_name
+  displayDescriptionKey: spells.fireball_description
+  icon: {fileID: -1194307972, guid: f23f77146f6b7bc4a945d824510cb132, type: 3}
+  spellType: 28
+  manaCost: 50
+  cooldown: 1
+  range: 225
+  castTime: 0
+  specials: []
+  radius: 30
+  channelDuration: 1
+  tickRate: 0.1
+  projectileEffect: {fileID: 11400000, guid: 350ee7b0aedeb644ea1ab2d407479388, type: 2}
+  ProjectileSpeed: 160
+  damage: 15
+  hitModifier: {fileID: 11400000, guid: 246084bfa9f65cd4db48e0c9dee8becb, type: 2}
+  hitModifierDuration: 1

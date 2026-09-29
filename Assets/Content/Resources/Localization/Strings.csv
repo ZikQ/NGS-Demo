@@ -1,0 +1,26 @@
+key,ru,en,tr
+language.name,Русский,English,Türkçe
+ui.spawn_wave,Заспавнить волну,Spawn wave,Dalga çağır
+ui.shop,Магазин,Shop,Mağaza
+stats.strength,Сил: {0},Str: {0},Güç: {0}
+stats.intelligence,Инт: {0},Int: {0},Zekâ: {0}
+hint.stun,Стан,Stunned,Sersemletildin
+hint.silence,Молчание,Silenced,Susturuldun
+hint.inventory_full,Инвентарь заполнен,Inventory is full,Envanter dolu
+hint.creeps_only,Только на крипов,Creeps only,Sadece creep'lere
+spells.fireball_name,Огненный шар,Fireball,Ateş Topu
+spells.fireball_description,"Огненный шар взрывается в указанной точке, обжигает врагов вокруг и ненадолго оглушает их.","A fireball explodes at the target point, scorching nearby enemies and briefly stunning them.","Ateş topu hedef noktada patlar, yakındaki düşmanları yakar ve kısa süre sersemletir."
+spells.fireshield_name,Огненный щит,Fire Shield,Ateş Kalkanı
+spells.fireshield_description,"Пока щит горит, враги рядом с героем каждую секунду получают урон огнём.","While the shield burns, enemies near the hero take fire damage every second.",Kalkan yanarken kahramanın yakınındaki düşmanlar her saniye ateş hasarı alır.
+spells.frozen_storm_name,Ледяная буря,Frozen Storm,Buz Fırtınası
+spells.frozen-storm_description,"Пока герой концентрируется, вокруг него кружат ледяные осколки и разлетаются во все стороны, раня врагов.","While the hero channels, ice shards whirl around them and fly out in every direction, wounding enemies.",Kahraman odaklanırken etrafında buz kırıkları döner ve her yöne savrularak düşmanları yaralar.
+spells.sadist_name,Садист,Sadist,Sadist
+spells.sadist_description,Каждое заклинание героя на время усиливает урон его заклинаний. Эффект складывается.,Every spell the hero casts temporarily amplifies their spell damage. Stacks.,"Kahramanın yaptığı her büyü, büyü hasarını geçici olarak artırır. Etki birikir."
+items.blink_dagger_name,Кинжал мерцания,Blink Dagger,Işınlanma Hançeri
+items.blink_dagger_description,"Мгновенно переносит владельца в указанную точку, но не дальше предельной дистанции.","Instantly teleports the owner to the chosen point, up to a maximum distance.","Sahibini anında seçilen noktaya ışınlar, ancak belirli bir mesafeden öteye değil."
+items.executioner_axe_name,Топор палача,Executioner's Axe,Cellat Baltası
+items.executioner_axe_description,+10 к силе. Мгновенно убивает выбранного крипа.,+10 Strength. Instantly kills the target creep.,+10 Güç. Hedef creep'i anında öldürür.
+items.giant_heart_name,Сердце великана,Giant's Heart,Dev Yüreği
+items.giant_heart_description,+10 к силе. Каждую секунду восстанавливает 1% максимального здоровья.,+10 Strength. Restores 1% of maximum health every second.,+10 Güç. Her saniye maksimum canın %1'ini yeniler.
+items.mana_crystal_name,Кристалл маны,Mana Crystal,Mana Kristali
+items.mana_crystal_description,Восстанавливает 100 маны. До 5 штук в одной ячейке.,Restores 100 mana. Up to 5 in one slot.,100 mana yeniler. Bir yuvada en fazla 5 adet.

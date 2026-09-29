@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47bf06152ae476a8e4c04e732204a3d, type: 3}
+  m_Name: Humans
+  m_EditorClassIdentifier: NGS.Unity.Core.Editor::NGS.Unity.Core.EditorTools.VoxelPrefabs.VoxelAtlasLibrary
+  maxPageSize: 2048
+  padding: 2
+  pages:
+  - {fileID: 2800000, guid: b19d4f63266f02b4b9ef5c8f46830df7, type: 3}
+  bindings:
+  - prefab: {fileID: 2841724542027242768, guid: cfdd0c659ded4454da231c0d7e853b9b, type: 3}
+    rendererPath: 
+    mesh: {fileID: 4839015352732167923, guid: cfdd0c659ded4454da231c0d7e853b9b, type: 3}
+  - prefab: {fileID: 8905705609850677024, guid: bd2d1f6b9b1209f42aff786e65ce0ec9, type: 3}
+    rendererPath: 
+    mesh: {fileID: 6254903033896874813, guid: bd2d1f6b9b1209f42aff786e65ce0ec9, type: 3}
+  materials:
+  - signature: NGS/Voxel Zone Remap Lit|2000|4|False|_VERTEX_COLOR_AO|_BaseMap=atlas|_BaseColor=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_Smoothness=0.0000|_Metallic=0.0000|_Threshold=0.0200|_Marker0=RGBA(1.0000,
+      0.0000, 0.0157, 1.0000)|_Marker1=RGBA(0.0000, 0.0000, 1.0000, 1.0000)|_Marker2=RGBA(0.0000,
+      1.0000, 1.0000, 1.0000)|_Marker3=RGBA(1.0000, 1.0000, 0.0000, 1.0000)|_ZonesPacked=(16711940.0000,
+      16711940.0000, 16711940.0000, 16711940.0000)|_VertexColorAO=1.0000
+    page: 0
+    material: {fileID: 2100000, guid: ee2abc70e58e7144589470ab86f5c1fb, type: 2}
+  - signature: Universal Render Pipeline/Lit|2000|4|False|_WorkflowMode=1.0000|_BaseMap=atlas|_BaseColor=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_Cutoff=0.5000|_Smoothness=0.0000|_SmoothnessTextureChannel=0.0000|_Metallic=0.0000|_MetallicGlossMap=|_SpecColor=RGBA(0.2000,
+      0.2000, 0.2000, 1.0000)|_SpecGlossMap=|_SpecularHighlights=1.0000|_EnvironmentReflections=1.0000|_BumpScale=1.0000|_BumpMap=|_Parallax=0.0050|_ParallaxMap=|_OcclusionStrength=1.0000|_OcclusionMap=|_EmissionColor=RGBA(0.0000,
+      0.0000, 0.0000, 1.0000)|_EmissionMap=|_DetailMask=|_DetailAlbedoMapScale=1.0000|_DetailAlbedoMap=|_DetailNormalMapScale=1.0000|_DetailNormalMap=|_ClearCoatMask=0.0000|_ClearCoatSmoothness=0.0000|_Surface=0.0000|_Blend=0.0000|_Cull=2.0000|_AlphaClip=0.0000|_SrcBlend=1.0000|_DstBlend=0.0000|_SrcBlendAlpha=1.0000|_DstBlendAlpha=0.0000|_ZWrite=1.0000|_BlendModePreserveSpecular=1.0000|_AlphaToMask=0.0000|_AddPrecomputedVelocity=0.0000|_XRMotionVectorsPass=1.0000|_ReceiveShadows=1.0000|_QueueOffset=0.0000|_MainTex=atlas|_Color=RGBA(1.0000,
+      1.0000, 1.0000, 1.0000)|_GlossMapScale=0.0000|_Glossiness=0.0000|_GlossyReflections=0.0000|unity_Lightmaps=|unity_LightmapsInd=|unity_ShadowMasks=
+    page: 0
+    material: {fileID: 2100000, guid: 9d6b90424a1c8a24e8467ef4b4c2915f, type: 2}

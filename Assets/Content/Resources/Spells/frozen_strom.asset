@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57b6d062ead9b744a731ee9aeb61ca4, type: 3}
+  m_Name: frozen_strom
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Scripts.Game.MOBA.Spells.FrozenStormSpell
+  id: frozen_storm_spell
+  displayNameKey: spells.frozen_storm_name
+  displayDescriptionKey: spells.frozen-storm_description
+  icon: {fileID: -1579972262, guid: fc6048bbf34d2b7439d89c17ad15f18a, type: 3}
+  spellType: 32
+  manaCost: 0
+  cooldown: 5
+  range: 0
+  castTime: 0
+  specials: []
+  radius: 50
+  channelDuration: 3
+  tickRate: 0.1
+  projectileEffect: {fileID: 11400000, guid: cb00f534d6c65ee498edcf68c1c19a06, type: 2}
+  projectileSpeed: 150
+  projectileRange: 250
+  damage: 15
+  rotationSpeed: 90
+  height: 20
